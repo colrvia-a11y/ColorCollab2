@@ -29,6 +29,7 @@ class _HomeScreenState extends State<HomeScreen> implements HomeScreenPaintSelec
     const ExploreScreen(),
   ];
 
+  @override
   void onPaintSelectedFromSearch(Paint paint) {
     // Switch to roller screen
     setState(() {

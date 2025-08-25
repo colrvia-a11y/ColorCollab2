@@ -272,7 +272,7 @@ class _ColorStoryDetailScreenState extends State<ColorStoryDetailScreen>
                       paletteItem: paletteItem,
                       textColor: textColor,
                     );
-                  }).toList(),
+                  }),
                   
                   // CTA Section
                   Container(
